@@ -1,3 +1,71 @@
-h1{
-    color: pink;
+body {
+  border: 10px dashed red;
+  border-radius: 50px;
+  display: block;
+  margin: 30px 150px 30px 150px;
+  padding: 10px 90px 10px 90px;
+}
+h1 {
+  color: pink;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  color: red;
+}
+
+form {
+  position: relative;
+  left: 100px;
+}
+
+.search-button {
+  color: pink;
+}
+
+.current-button {
+  color: aqua;
+  position: relative;
+  left: -100px;
+}
+
+.weather-image {
+  display: block;
+  margin: 50px 100px 10px;
+  width: 100px;
+}
+
+.date-format {
+  list-style: none;
+  color: cadetblue;
+}
+
+.weather-details {
+  list-style: none;
+  color: blue;
+}
+
+.high-low-temperature {
+  color: blueviolet;
+  margin: 20px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.temperature-details {
+  list-style: none;
+  color: blue;
+  text-align: center;
+}
+
+.feels-like-temperature {
+  color: darkgoldenrod;
+  line-height: 30px;
 }
